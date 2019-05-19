@@ -1,0 +1,104 @@
+# AP and precision/recall per class
+0.00% = book AP 
+ Precision: []
+ Recall :[]
+
+0.00% = bowl AP 
+ Precision: []
+ Recall :[]
+
+12.50% = cup AP 
+ Precision: ['1.00']
+ Recall :['0.12']
+
+0.00% = doll AP 
+ Precision: []
+ Recall :[]
+
+50.00% = person AP 
+ Precision: ['1.00', '1.00']
+ Recall :['0.25', '0.50']
+
+0.00% = pictureframe AP 
+ Precision: []
+ Recall :[]
+
+0.00% = pillow AP 
+ Precision: []
+ Recall :[]
+
+20.00% = pottedplant AP 
+ Precision: ['1.00']
+ Recall :['0.20']
+
+0.00% = tap AP 
+ Precision: []
+ Recall :[]
+
+0.00% = tincan AP 
+ Precision: []
+ Recall :[]
+
+0.00% = tvmonitor AP 
+ Precision: []
+ Recall :[]
+
+0.00% = vase AP 
+ Precision: ['0.00']
+ Recall :['0.00']
+
+
+# mAP of all classes
+mAP = 6.87%
+
+# Number of ground-truth objects per class
+book: 7
+bowl: 5
+cup: 8
+doll: 8
+person: 4
+pictureframe: 9
+pillow: 1
+pottedplant: 5
+tap: 3
+tincan: 12
+tvmonitor: 2
+vase: 3
+
+# Number of detected objects per class
+backpack: 5 (tp:0, fp:5)
+bed: 8 (tp:0, fp:8)
+book: 25 (tp:0, fp:25)
+bookcase: 1 (tp:0, fp:1)
+bottle: 20 (tp:0, fp:20)
+bowl: 10 (tp:0, fp:10)
+cabinetry: 14 (tp:0, fp:14)
+chair: 135 (tp:0, fp:135)
+coffeetable: 4 (tp:0, fp:4)
+countertop: 4 (tp:0, fp:4)
+cup: 27 (tp:1, fp:26)
+diningtable: 45 (tp:0, fp:45)
+door: 6 (tp:0, fp:6)
+heater: 2 (tp:0, fp:2)
+keyboard: 1 (tp:0, fp:1)
+knife: 1 (tp:0, fp:1)
+lamp: 1 (tp:0, fp:1)
+laptop: 2 (tp:0, fp:2)
+nightstand: 5 (tp:0, fp:5)
+oven: 4 (tp:0, fp:4)
+person: 3 (tp:2, fp:1)
+pictureframe: 13 (tp:0, fp:13)
+pillow: 16 (tp:0, fp:16)
+pottedplant: 30 (tp:1, fp:29)
+refrigerator: 32 (tp:0, fp:32)
+remote: 7 (tp:0, fp:7)
+sink: 8 (tp:0, fp:8)
+sofa: 22 (tp:0, fp:22)
+tap: 4 (tp:0, fp:4)
+tincan: 1 (tp:0, fp:1)
+toilet: 2 (tp:0, fp:2)
+toothbrush: 1 (tp:0, fp:1)
+tvmonitor: 18 (tp:0, fp:18)
+vase: 8 (tp:0, fp:8)
+wastecontainer: 5 (tp:0, fp:5)
+windowblind: 4 (tp:0, fp:4)
